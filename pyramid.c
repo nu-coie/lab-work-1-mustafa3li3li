@@ -1,28 +1,18 @@
 #include <stdio.h>
-#include <cs50.h>
 
-int main(void)
-{
-    // Step ( 1 ) : Prompt the user for Pyramid Size
+int main() {
+    int rows = 4; // Number of rows in the pattern
 
-    
+    for(int i=0; i<rows; i++) {
+        for(int j=0; j<rows; j++) {
+            if(j >= rows-i-1) {
+                printf("#");
+            }
+            else {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
 
-    // Step ( 2 ) : Draw the Pyramid (Hint* : Use nested for loop)
-     
-}
-
-
-
-
-/*
-
-This is what the output should look like. :
-./pyramid
-Size: 4
-   #
-  ##
- ###
-####
-
-
-*/
+    return 0;
