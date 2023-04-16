@@ -9,7 +9,7 @@ char in;
 printf("Enter a letter : \n a- Additon \n m- Multiplication \n d-Divison");
 scanf(in);
 
-if(in==a)
+if(in=='a')
 {
     float x,y;
     printf("Enter the first number");
@@ -20,7 +20,7 @@ if(in==a)
 
     printf("The sum of these two numbers = ", sum);
 }
-else if(in==m)
+else if(in=='m')
 {
     float x,y;
     printf("Enter the first number");
@@ -31,7 +31,7 @@ else if(in==m)
 
     printf("The multiplication of these two numbers = ", sum);
 }
-else if(in==d)
+else if(in=='d')
 {
     float x,y;
     printf("Enter the first number");
