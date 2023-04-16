@@ -3,46 +3,46 @@
 
 int main(void)
 {
-// Accept Input From user (char), where (a) stands for "Addition", (m) for "Multiplications," and (d) for "Division,"
-char in;
+    // Accept Input From user (char), where (a) stands for "Addition", (m) for "Multiplications," and (d) for "Division,"
+    char in;
 
-printf("Enter a letter : \n a- Additon \n m- Multiplication \n d-Divison");
-scanf("%c",&in);
+    printf(" a- Additon \n m- Multiplication \n d-Divison \n Enter a letter :");
+    scanf(" %c", &in);
 
-if(in=='a')
-{
-    float x,y;
-    printf("Enter the first number");
-    scanf(x);
-    printf("Enter the second number");
-    scanf(y);
-    float sum=x+y;
+    if (in == 'a')
+    {
+        float x, y;
+        printf("Enter the first number");
+        scanf("%f", &x);
+        printf("Enter the second number");
+        scanf("%f", &y);
+        float s = x + y;
 
-    printf("The sum of these two numbers = ", sum);
-}
-else if(in=='m')
-{
-    float x,y;
-    printf("Enter the first number");
-    scanf(x);
-    printf("Enter the second number");
-    scanf(y);
-    float sum=x*y;
+        printf("The sum of these two numbers = ", s);
+    }
+    else if (in == 'm')
+    {
+        float x, y;
+        printf("Enter the first number");
+        scanf("%f", &x);
+        printf("Enter the second number");
+        scanf("%f", &y);
+        float p = x * y;
 
-    printf("The multiplication of these two numbers = ", sum);
-}
-else if(in=='d')
-{
-    float x,y;
-    printf("Enter the first number");
-    scanf(x);
-    printf("Enter the second number");
-    scanf(y);
-    float sum=x/y;
+        printf("The multiplication of these two numbers = ", p);
+    }
+    else if (in == 'd')
+    {
+        float x, y;
+        printf("Enter the first number");
+        scanf("%f", &x);
+        printf("Enter the second number");
+        scanf("%f", &y);
+        float q = x / y;
 
-    printf("The division of these two numbers = ", sum);
-}
-else
-printf("Wrong input.");
+        printf("The division of these two numbers = ", q);
+    }
+    else
+        printf("Wrong input.");
 
 }
