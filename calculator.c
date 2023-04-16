@@ -6,7 +6,7 @@ int main(void)
     // Accept Input From user (char), where (a) stands for "Addition", (m) for "Multiplications," and (d) for "Division,"
     char in;
 
-    printf(" a- Additon \n m- Multiplication \n d-Divison \n Enter a letter :");
+    printf(" a- Additon \n m- Multiplication \n d-Divison \n Enter a letter : ");
     scanf(" %c", &in);
 
     if (in == 'a')
