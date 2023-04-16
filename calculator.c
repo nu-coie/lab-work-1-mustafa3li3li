@@ -11,42 +11,38 @@ int main(void)
 
     if (in == 'a')
     {
-        float x, y;
-        printf("Enter the first number");
-        scanf("%f", &x);
-        printf("Enter the second number");
-        scanf("%f", &y);
-        float s = x + y;
+        int x, y;
+        printf("Enter the first number : ");
+        scanf("%d", &x);
+        printf("Enter the second number : ");
+        scanf("%d", &y);
+        int s = x + y;
 
-        printf("The sum of these two numbers = ", &s);
-        getchar();
+        printf("The sum of these two numbers = %d", s);
     }
     else if (in == 'm')
     {
-        float x, y;
-        printf("Enter the first number");
-        scanf("%f", &x);
-        printf("Enter the second number");
-        scanf("%f", &y);
-        float p = x * y;
+        int x, y;
+        printf("Enter the first number : ");
+        scanf("%d", &x);
+        printf("Enter the second number : ");
+        scanf("%d", &y);
+        int p = x * y;
 
-        printf("The multiplication of these two numbers = ", p);
-        getchar();
+        printf("The multiplication of these two numbers = %d", p);
     }
     else if (in == 'd')
     {
-        float x, y;
-        printf("Enter the first number");
-        scanf("%f", &x);
-        printf("Enter the second number");
-        scanf("%f", &y);
-        float q = x / y;
+        int x, y;
+        printf("Enter the first number : ");
+        scanf("%d", &x);
+        printf("Enter the second number : ");
+        scanf("%d", &y);
+        int q = x / y;
 
-        printf("The division of these two numbers = ", q);
-        getchar();
+        printf("The division of these two numbers = %d", q);
     }
     else
         printf("Wrong input.");
-        getchar();
 
 }
