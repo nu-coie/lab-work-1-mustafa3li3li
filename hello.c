@@ -6,8 +6,7 @@ int main(void)
 
   char name[20];
   printf("Whats your name? ");
-  scanf("%c", &name);
+  scanf("%s", &name);
 
-  printf("Hello, %c", name);
-getchar();
+  printf("Hello, %s", name);
 }
