@@ -19,7 +19,6 @@ int main(void)
         int s = x + y;
 
         printf("The sum of these two numbers = %d", s);
-        getchar();
     }
     else if (in == 'm')
     {
