@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int rows = 4; // Number of rows in the pattern
 
     for(int i=0; i<rows; i++) {
@@ -14,5 +15,4 @@ int main() {
         }
         printf("\n");
     }
-
-    return 0;
+}
