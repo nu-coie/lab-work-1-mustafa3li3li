@@ -19,6 +19,7 @@ int main(void)
         float s = x + y;
 
         printf("The sum of these two numbers = ", s);
+        getchar();
     }
     else if (in == 'm')
     {
@@ -30,6 +31,7 @@ int main(void)
         float p = x * y;
 
         printf("The multiplication of these two numbers = ", p);
+        getchar();
     }
     else if (in == 'd')
     {
@@ -41,8 +43,10 @@ int main(void)
         float q = x / y;
 
         printf("The division of these two numbers = ", q);
+        getchar();
     }
     else
         printf("Wrong input.");
+        getchar();
 
 }
