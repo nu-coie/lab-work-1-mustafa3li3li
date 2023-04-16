@@ -1,28 +1,18 @@
 #include <stdio.h>
-#include <cs50.h>
 
-int main(void)
+int main()
 {
-    // Step ( 1 ) : Prompt the user for Pyramid Size
+int L;
 
-    
+printf("Enter the base length of the pryamid : ");
+scanf("%d", &L);
 
-    // Step ( 2 ) : Draw the Pyramid (Hint* : Use nested for loop)
-     
+for(int i=1;i<=L;i+=2)
+  {
+    for(int j=1;j<=i;j+=1)
+        printf("#");
+
+   printf("\n");
+  }
+  return 0;
 }
-
-
-
-
-/*
-
-This is what the output should look like. :
-./pyramid
-Size: 4
-   #
-  ##
- ###
-####
-
-
-*/

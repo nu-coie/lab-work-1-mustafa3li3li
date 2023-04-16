@@ -2,11 +2,11 @@
 
 int main(void)
 {
-  
-  // Step ( 1 ) : Print Hello, World
-  
-  
-  
-  //Step ( 2 ) : Print Hello, Your Name
+  printf("Hello, World! \n");
 
+  char name[20];
+  printf("Whats your name? ");
+  scanf("%s", &name);
+
+  printf("Hello, %s", name);
 }
