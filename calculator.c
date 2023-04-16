@@ -16,9 +16,9 @@ int main(void)
         scanf("%f", &x);
         printf("Enter the second number");
         scanf("%f", &y);
-        float s = x + y;
+        float s = &x + &y;
 
-        printf("The sum of these two numbers = ", s);
+        printf("The sum of these two numbers = ", &s);
         getchar();
     }
     else if (in == 'm')
