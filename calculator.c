@@ -7,7 +7,7 @@ int main(void)
 char in;
 
 printf("Enter a letter : \n a- Additon \n m- Multiplication \n d-Divison");
-scanf(&in);
+scanf("%c",&in);
 
 if(in=='a')
 {
