@@ -5,7 +5,7 @@ int main()
 int L;
 
 printf("Enter the base length of the pryamid : ");
-("%d", &L);scanf
+scanf("%d", &L);
 
 for(int i=1;i<=L;i+=2)
   {
